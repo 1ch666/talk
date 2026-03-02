@@ -297,6 +297,11 @@ input:focus{ border-color:#b8b8b8; }
 
 @media (max-width: 860px){
   .shell{ grid-template-columns: 1fr; }
-  .side{ display:none; }
-  .roleBtns{ grid-template-columns: 1fr; }
+  #customerShell .side{ display:none; }  /* 只藏客戶 */
+  #adminShell .side{
+    display:flex;
+    border-right:none;
+    border-bottom:1px solid var(--border);
+    max-height:40vh;
+  }
 }
