@@ -305,3 +305,4 @@ input:focus{ border-color:#b8b8b8; }
     max-height:40vh;
   }
 }
+#adminShell .side{ outline: 5px solid red; }
