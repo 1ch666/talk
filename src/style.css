@@ -1,3 +1,4 @@
+body{ background: hotpink !important; }
 :root{
   --bg:#f2f2f2;
   --card:#fff;
@@ -305,4 +306,3 @@ input:focus{ border-color:#b8b8b8; }
     max-height:40vh;
   }
 }
-#adminShell .side{ outline: 5px solid red; }
