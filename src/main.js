@@ -59,7 +59,8 @@ analyticsSupported().then((ok) => { if (ok) getAnalytics(app); }).catch(() => {}
    - 只有這些 UID 才算白名單管理員（能刪除）
 ======================= */
 const ADMIN_UIDS = new Set([
-  "3iOaPxm6wbSbrSRi6BV9ghIvY7a2"
+  "3iOaPxm6wbSbrSRi6BV9ghIvY7a2",
+  "sOCJOr8c8JdmkTyNEbRBt5f6jw43"
 ]);
 
 /* =======================
